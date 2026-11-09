@@ -22,13 +22,17 @@
   <section class="page-hero wrap contact-hero"><span class="eyebrow">FALE COM O CHECKPOINT</span><h1>Vamos conversar<span class="accent">.</span></h1><p>Tem uma sugestão de pauta, quer indicar um jogo ou enviar uma opinião? Use o formulário abaixo.</p></section>
   <section class="contact-layout wrap">
     <div class="contact-card"><span class="eyebrow">CONTATO</span><h2>A comunidade faz o blog.</h2><p>O Checkpoint Games é um projeto informativo sobre o universo gamer. Mensagens e sugestões ajudam a pensar em novos conteúdos.</p><div class="contact-detail"><span>✦</span><div><strong>Assuntos</strong><p>Sugestões, dúvidas, correções e parcerias acadêmicas.</p></div></div><div class="contact-detail"><span>⌖</span><div><strong>Presença online</strong><p>Acompanhe as atualizações pelas páginas deste blog.</p></div></div></div>
-    <form class="contact-form" id="contact-form">
+    <form class="contact-form" id="contact-form" action="https://formsubmit.co/projetoivob2@gmail.com" method="POST">
+      <input type="hidden" name="_subject" value="Nova sugestão — Checkpoint Games">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_captcha" value="true">
+      <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
       <label for="nome">Seu nome</label><input id="nome" name="nome" type="text" placeholder="Como podemos chamar você?" required>
       <label for="email">Seu e-mail</label><input id="email" name="email" type="email" placeholder="voce@email.com" required>
       <label for="assunto">Assunto</label><select id="assunto" name="assunto"><option>Sugestão de conteúdo</option><option>Dúvida</option><option>Correção</option><option>Outro assunto</option></select>
       <label for="mensagem">Mensagem</label><textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem..." required></textarea>
       <button class="button button-primary" type="submit">Enviar mensagem ↗</button>
-      <p class="form-note" id="form-status" role="status">Demonstração acadêmica: o formulário valida os campos, mas não envia dados para um servidor.</p>
+      <p class="form-note" id="form-status" role="status">As mensagens são encaminhadas para o e-mail do projeto. No primeiro envio, o serviço poderá solicitar uma confirmação de ativação.</p>
     </form>
   </section>
 </main>
